@@ -18,7 +18,7 @@
 
 ## Deployed Link 
 
-* [Here] you can find the link to my static comp. 
+* [Here](https://piperjarrett.github.io/Static-Comp/) you can find the link to my static comp. 
 
 
 
