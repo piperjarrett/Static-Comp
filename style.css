@@ -1,0 +1,150 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-color: #eaeaf4;
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  color: #5d5e5e;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #484d59;
+  color: #b3b3b3;
+}
+h1 {
+  margin-left: 15px;
+}
+p {
+  margin: 5px;
+}
+.admin-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  color: #62d9fc;
+}
+.shares {
+  color: white;
+}
+.nav-pages {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.playlists-icon,
+.profile-icon {
+  height: 25px;
+  padding: 5px;
+}
+.shares-icon,
+.personal-videos-icon,
+.arrow-icon {
+  height: 15px;
+  padding: 5px;
+}
+.shares,
+.playlists,
+.videos {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.recipeint-cards {
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.recipeint-card:hover {
+  transform: scale(1.1);
+}
+.recipeint-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px 0px 0px 0px;
+  box-shadow: 1px 1px 1px 1px #a3a5a8;
+}
+
+.card-top-flume,
+.card-top-mac-miller,
+.card-top-billie,
+.card-top-louis-the-child,
+.card-top-jack-johnson,
+.card-top-kacey-musgraves,
+.card-top-shwayze,
+.card-top-tai-verdes {
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.card-top-flume {
+  background: url(assets/Flume.jpg);
+}
+.card-top-mac-miller {
+  background: url(assets/mac-miller.jpg);
+}
+.card-top-billie {
+  background: url(assets/billie-elish.jpg);
+}
+.card-top-louis-the-child {
+  background: url(assets/louis.jpg);
+}
+.card-top-jack-johnson {
+  background: url(assets/jack-johnson.jpg);
+}
+.card-top-kacey-musgraves {
+  background: url(assets/Kacey-Musgraves.jpg);
+}
+.card-top-shwayze {
+  background: url(assets/shwayze.jpg);
+}
+.card-top-tai-verdes {
+  background: url(assets/tai-verdes.jpg);
+}
+.arrow-icon-card {
+  height: 45px;
+  border: solid white;
+  border-radius: 100px;
+  padding: 8px;
+  margin: 10px;
+  background: white;
+}
+.views {
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+.amount-of-views {
+  font-size: 40px;
+}
+.name-and-date,
+.playlist-section,
+.attachments-and-amount {
+  margin: 10px;
+}
+.date {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+.link {
+  text-align: center;
+  border: solid #b3b3b3;
+  background: #b3b3b3;
+  margin: 15px;
+}
+.playlist-name {
+  font-size: 20px;
+}
+.number-of-attachments {
+  font-size: 35px;
+  color: #62d9fc;
+}
